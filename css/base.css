@@ -1,0 +1,54 @@
+:root {
+    --white-color: #fff;
+    --black-color: #333;
+    --main-color: rgb(115, 2, 2);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-2 {
+    width: 16.667%;
+}
+
+.column-3 {
+    width: 25%;
+}
+
+.column-4 {
+    width: 33.334%;
+}
+
+.column-6 {
+    width: 50%;
+}
+
+.column-7 {
+    width: 58.333%;
+}
+
+.column-9 {
+    width: 75%;
+}
